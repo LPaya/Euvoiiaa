@@ -119,6 +119,11 @@ main {
     margin-bottom: 1vw;
     color: #0C0908;
     font-size: 2.34vw;
+    line-height: 1.2;
+}
+
+.top span {
+    font-size: 1.8vw;
 }
 
 .prints {
@@ -252,7 +257,7 @@ h3 {
 .broshat-price {
     font-size: 2.2vw;
     font-weight: 800;
-    color: #FCFCFA;
+    color: #0C0908;
 }
 
 .wall {
@@ -526,6 +531,11 @@ h5 {
 
     .top {
         font-size: 6vw;
+        line-height: 1;
+    }
+
+    .top span {
+        font-size: 4vw;
     }
 
     .print {
@@ -638,6 +648,7 @@ h5 {
 
     main {
         padding-top: 20vh;
+        gap: 4vh;
     }
 
     .hero-h1 {
@@ -660,6 +671,10 @@ h5 {
         font-size: 7.5vw;
         margin-top: 5vh;
         margin-bottom: 1vh;
+    }
+
+    .top span {
+        font-size: 5.5vw;
     }
 
     .print {
@@ -765,5 +780,4 @@ h5 {
         font-size: 4vw !important;
     }
 
-    .
 }
