@@ -505,6 +505,10 @@ h5 {
 }
 
 @media (max-width: 1024px) and (min-height: 720px) {
+    .hero-wrapper {
+        height: 80vh;
+        margin-bottom: 5vh;
+    }
     .logo {
         width: 10vw;
     }
@@ -638,6 +642,10 @@ h5 {
 }
 
 @media (max-width:480px) {
+    .hero-wrapper {
+        height: 85vh;
+        margin-bottom: 0;
+    }
     #name {
         font-size: 5vw;
     }
@@ -648,7 +656,6 @@ h5 {
 
     main {
         padding-top: 20vh;
-        gap: 4vh;
     }
 
     .hero-h1 {
